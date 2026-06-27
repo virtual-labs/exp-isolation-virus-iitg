@@ -1,39 +1,162 @@
-{
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+[
+  {
+    "question": "Viruses are defined as:",
+    "answers": {
+      "a": "Too small organisms",
+      "b": "Obligate intracellular parasites",
+      "c": "Entities sensitive to temperature changes",
+      "d": "Entities lacking nucleic acids"
     },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+    "correctAnswer": "b",
+    "explanations": {
+      "a": "While viruses are microscopic, being small does not define their parasitic nature.",
+      "b": "Correct. Viruses lack their own metabolic machinery and must infect a living host cell to replicate.",
+      "c": "Temperature sensitivity is a physical characteristic, not a defining biological classification.",
+      "d": "Incorrect. All viruses contain a nucleic acid genome (either DNA or RNA)."
     }
-  ]
-}
+  },
+  {
+    "question": "What do viruses require to grow and replicate?",
+    "answers": {
+      "a": "Nutrient agar",
+      "b": "Sterile water",
+      "c": "Living cells",
+      "d": "Sugar solution"
+    },
+    "correctAnswer": "c",
+    "explanations": {
+      "a": "Nutrient agar is used for culturing bacteria, not obligate intracellular viruses.",
+      "b": "Sterile water cannot support viral replication since it lacks host cellular machinery.",
+      "c": "Correct. Viruses must utilize the metabolic and replicative machinery of living host cells.",
+      "d": "Sugar solutions are nutrients for cells, but viruses cannot use them directly for replication."
+    }
+  },
+  {
+    "question": "The most commonly used system for virus isolation in modern laboratories is:",
+    "answers": {
+      "a": "Nutrient agar",
+      "b": "Blood agar",
+      "c": "Cell culture",
+      "d": "MacConkey agar"
+    },
+    "correctAnswer": "c",
+    "explanations": {
+      "a": "Nutrient agar is a bacterial growth medium.",
+      "b": "Blood agar is used to cultivate fastidious bacteria and detect hemolytic activity.",
+      "c": "Correct. Mammalian cell culture systems are widely used due to their high sensitivity, reproducibility, and ease of handling.",
+      "d": "MacConkey agar is a selective medium for Gram-negative bacteria."
+    }
+  },
+  {
+    "question": "Viruses are primarily classified based on which of the following criteria?",
+    "answers": {
+      "a": "Physical size only",
+      "b": "Capsid shape only",
+      "c": "Type of nucleic acid (DNA or RNA)",
+      "d": "Pigment or color"
+    },
+    "correctAnswer": "c",
+    "explanations": {
+      "a": "Physical size varies but is not the primary basis of viral classification systems.",
+      "b": "Capsid shape (symmetry) is secondary to genome type in classification.",
+      "c": "Correct. The core classification (such as Baltimore classification) is based on the type of nucleic acid genome (DNA/RNA, single/double stranded).",
+      "d": "Viruses do not have cellular pigments or color characteristics for classification."
+    }
+  },
+  {
+    "question": "Which type of nucleic acid can be found in a viral genome?",
+    "answers": {
+      "a": "Only DNA",
+      "b": "Only RNA",
+      "c": "Both DNA and RNA together in the same virion",
+      "d": "Either DNA or RNA"
+    },
+    "correctAnswer": "d",
+    "explanations": {
+      "a": "Many viruses contain RNA genomes instead of DNA.",
+      "b": "Many viruses contain DNA genomes instead of RNA.",
+      "c": "A single virus particle contains either DNA or RNA, not both simultaneously.",
+      "d": "Correct. Viral genomes can be composed of either DNA or RNA, but never both in the same virion."
+    }
+  },
+  {
+    "question": "Which of the following is an example of an RNA virus?",
+    "answers": {
+      "a": "Adenovirus",
+      "b": "Herpesvirus",
+      "c": "Influenza virus",
+      "d": "Poxvirus"
+    },
+    "correctAnswer": "c",
+    "explanations": {
+      "a": "Adenovirus is a double-stranded DNA virus.",
+      "b": "Herpesvirus is a double-stranded DNA virus.",
+      "c": "Correct. Influenza virus belongs to the Orthomyxoviridae family and contains a segmented single-stranded RNA genome.",
+      "d": "Poxvirus is a large double-stranded DNA virus."
+    }
+  },
+  {
+    "question": "Which of the following cell lines is commonly used in laboratories for virus isolation?",
+    "answers": {
+      "a": "E. coli",
+      "b": "Bacillus subtilis",
+      "c": "Vero cells",
+      "d": "Staphylococcus aureus"
+    },
+    "correctAnswer": "c",
+    "explanations": {
+      "a": "E. coli is a bacterium, not a eukaryotic mammalian host cell line.",
+      "b": "Bacillus subtilis is a Gram-positive bacterium.",
+      "c": "Correct. Vero cells (lineage of kidney epithelial cells from an African green monkey) are widely used for isolating and propagating viruses.",
+      "d": "Staphylococcus aureus is a Gram-positive bacterium."
+    }
+  },
+  {
+    "question": "What is the typical response when a virus infects a susceptible host cell?",
+    "answers": {
+      "a": "Cells begin to divide faster",
+      "b": "Cells instantly become resistant to all viruses",
+      "c": "Cells show visible cytopathic damage",
+      "d": "Cells form bacterial spores"
+    },
+    "correctAnswer": "c",
+    "explanations": {
+      "a": "Most viral infections inhibit host cell division and eventually lead to cell death.",
+      "b": "Infection does not confer general resistance to other host cells.",
+      "c": "Correct. Virus-infected cells show cytopathic effects (CPE) such as rounding, fusion, detachment, or lysis.",
+      "d": "Animal host cells do not form bacterial endospores."
+    }
+  },
+  {
+    "question": "Which of the following materials must be handled with the highest level of biosafety precautions?",
+    "answers": {
+      "a": "Sterile distilled water",
+      "b": "Unknown field virus sample",
+      "c": "Phosphate-Buffered Saline (PBS) solution",
+      "d": "Empty sterile culture flask"
+    },
+    "correctAnswer": "b",
+    "explanations": {
+      "a": "Sterile water carries no infectious risk.",
+      "b": "Correct. Unknown biological virus samples pose an active biohazard and must be handled under strict Biosafety Cabinet (BSC) conditions.",
+      "c": "PBS is a non-toxic salt buffer solution.",
+      "d": "Empty culture flasks do not contain infectious agents until inoculated."
+    }
+  },
+  {
+    "question": "The Baltimore classification system categorizes viruses based on:",
+    "answers": {
+      "a": "Physical size of the virion",
+      "b": "The geographic origin or host range",
+      "c": "Type of genome and pathway of mRNA synthesis",
+      "d": "Severity of the disease caused"
+    },
+    "correctAnswer": "c",
+    "explanations": {
+      "a": "Size is not the basis of the Baltimore classification.",
+      "b": "Host range is not used in the Baltimore scheme.",
+      "c": "Correct. The Baltimore system classifies viruses into seven groups based on their genome type (DNA/RNA, single/double stranded) and replication strategy.",
+      "d": "Pathogenicity is not used in the Baltimore classification."
+    }
+  }
+]

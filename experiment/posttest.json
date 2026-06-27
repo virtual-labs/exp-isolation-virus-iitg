@@ -1,39 +1,162 @@
-{
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+[
+  {
+    "question": "The observable structural changes in virus-infected host cells are referred to as:",
+    "answers": {
+      "a": "Plaques",
+      "b": "Colonies",
+      "c": "Cytopathic effects (CPE)",
+      "d": "Turbidity"
     },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+    "correctAnswer": "c",
+    "explanations": {
+      "a": "Plaques are clear zones in cell monolayers created by localized cell lysis, representing one type of CPE but not the collective term for all cell changes.",
+      "b": "Colonies are clonal groups of bacteria growing on solid media.",
+      "c": "Correct. Cytopathic effects (CPE) include visible changes in host cells, such as cell rounding, detachment, syncytia formation, and cell lysis.",
+      "d": "Turbidity is the cloudiness of liquid bacterial cultures."
     }
-  ]
-}
+  },
+  {
+    "question": "What is the ideal incubation temperature for most mammalian cell culture systems?",
+    "answers": {
+      "a": "25°C",
+      "b": "30°C",
+      "c": "37°C",
+      "d": "42°C"
+    },
+    "correctAnswer": "c",
+    "explanations": {
+      "a": "25°C is too cold for optimal growth of mammalian cells (which match core body temperature).",
+      "b": "30°C is below the physiological temperature of mammalian hosts.",
+      "c": "Correct. 37°C matches the physiological body temperature of mammals, providing optimal enzyme kinetics for mammalian cell lines.",
+      "d": "42°C is too high and will cause denaturing of cell proteins and cell death."
+    }
+  },
+  {
+    "question": "In virology, virus isolation is primarily performed for which of the following reasons?",
+    "answers": {
+      "a": "Antibiotic sensitivity testing",
+      "b": "Clinical diagnosis, vaccine development, and research",
+      "c": "Taxonomic identification of soil bacteria",
+      "d": "Fungal spore culture"
+    },
+    "correctAnswer": "b",
+    "explanations": {
+      "a": "Antibiotic sensitivity is tested on bacterial isolates, not obligate intracellular viruses.",
+      "b": "Correct. Isolating viruses provides pure samples needed for epidemiological tracking, clinical diagnostics, vaccine synthesis, and basic academic research.",
+      "c": "Bacteria are not viruses and are identified using separate microbiological techniques.",
+      "d": "Fungi belong to a different kingdom and do not require cell culture to replicate."
+    }
+  },
+  {
+    "question": "Which biosafety practice is most critical when performing virus isolation from clinical swabs?",
+    "answers": {
+      "a": "Working in an open-air room",
+      "b": "Handling samples without gloves",
+      "c": "Handling all specimens inside a certified Biosafety Cabinet (BSC)",
+      "d": "Incubating culture flasks at room temperature on an open bench"
+    },
+    "correctAnswer": "c",
+    "explanations": {
+      "a": "Working in open air poses serious contamination and inhalation biohazards.",
+      "b": "Gloves are essential personal protective equipment when handling viral specimens.",
+      "c": "Correct. Certified Biosafety Cabinets (typically Class II) protect the operator, environment, and sample from aerosolized viral pathogens.",
+      "d": "Open-bench incubation is a biosafety hazard."
+    }
+  },
+  {
+    "question": "What is the primary reason for adding antibiotics and antifungal agents to viral transport media and samples?",
+    "answers": {
+      "a": "To accelerate viral attachment and replication",
+      "b": "To deliberately kill the mammalian host cells",
+      "c": "To prevent bacterial and fungal overgrowth in clinical samples",
+      "d": "To neutralize or inactivate the target virus"
+    },
+    "correctAnswer": "c",
+    "explanations": {
+      "a": "Antibiotics and antifungals do not stimulate or affect viral replication.",
+      "b": "Killing host cells would prevent viral propagation, as viruses require living cells.",
+      "c": "Correct. Biological specimens from outbreaks (like swabs) are rich in microbial flora; antibiotics/antifungals suppress bacterial and fungal contaminants that would otherwise destroy the cell culture.",
+      "d": "Viral transport media is designed to preserve, not inactivate, the virus."
+    }
+  },
+  {
+    "question": "If cell cultures show no visible cytopathic effects (CPE) after inoculation, what is a likely explanation?",
+    "answers": {
+      "a": "Complete absence of mammalian host cells",
+      "b": "Use of a phase-contrast microscope instead of a brightfield one",
+      "c": "Low viral load or absence of active virus in the sample",
+      "d": "Slight excess of carbon dioxide (CO₂) in the incubator"
+    },
+    "correctAnswer": "c",
+    "explanations": {
+      "a": "Host cells are seeded and verified before inoculation.",
+      "b": "Microscope selection does not affect the physical manifestation of CPE.",
+      "c": "Correct. If the initial viral titer is extremely low, or if the virus was inactivated during transport, it may fail to replicate sufficiently to cause visible CPE.",
+      "d": "Incubators are buffered (e.g. 5% CO₂) to support growth, and slight variations do not entirely mask CPE."
+    }
+  },
+  {
+    "question": "Which of the following is NOT classified as a cytopathic effect (CPE)?",
+    "answers": {
+      "a": "Cell rounding and shrinking",
+      "b": "Syncytium formation (cell fusion)",
+      "c": "Cell detachment from the culture flask surface",
+      "d": "Bacterial colony formation on the monolayer"
+    },
+    "correctAnswer": "d",
+    "explanations": {
+      "a": "Cell rounding is a classic morphologic CPE.",
+      "b": "Syncytia (multi-nucleated giant cells) are a common CPE for fusogenic viruses.",
+      "c": "Cell detachment is a visible CPE showing cell death or loss of adherence.",
+      "d": "Correct. Bacterial colonies are macroscopic groups of bacteria, not host cell structural changes induced by viral replication."
+    }
+  },
+  {
+    "question": "Which assay is commonly used to quantify the concentration of infectious virus particles (titer) in a sample?",
+    "answers": {
+      "a": "Polymerase Chain Reaction (PCR)",
+      "b": "Plaque Assay",
+      "c": "Hemagglutination Assay",
+      "d": "Western Blot"
+    },
+    "correctAnswer": "b",
+    "explanations": {
+      "a": "PCR detects and amplifies viral nucleic acids but does not directly measure the concentration of viable, infectious virus particles.",
+      "b": "Correct. A plaque assay measures the number of plaque-forming units (PFU) in a virus sample, representing the concentration of infectious virus particles.",
+      "c": "Hemagglutination assay measures the relative virus concentration by red blood cell agglutination but doesn't distinguish between infectious and non-infectious virions.",
+      "d": "Western blot is used to detect specific viral proteins, not quantify infectious virus particles."
+    }
+  },
+  {
+    "question": "Classifying viruses is highly valuable because it assists in:",
+    "answers": {
+      "a": "Color-coding viruses for visualization",
+      "b": "Artificially increasing physical virus size",
+      "c": "Understanding viral structure, host tropism, and replication pathways",
+      "d": "Permanently killing or eradicating all existing virus families"
+    },
+    "correctAnswer": "c",
+    "explanations": {
+      "a": "Viruses cannot be color-coded by taxonomy.",
+      "b": "Taxonomy does not change the physical dimensions of the virion.",
+      "c": "Correct. Grouping viruses taxonomically helps predict how they replicate, what host cells they infect, and how to develop targeted antiviral therapies.",
+      "d": "Classification alone does not eradicate viruses."
+    }
+  },
+  {
+    "question": "Viruses that are surrounded by an outer host-derived lipid bilayer membrane are called:",
+    "answers": {
+      "a": "Naked viruses",
+      "b": "Enveloped viruses",
+      "c": "Helical viruses",
+      "d": "Icosahedral viruses"
+    },
+    "correctAnswer": "b",
+    "explanations": {
+      "a": "Naked viruses lack an outer lipid envelope and are protected only by their protein capsid.",
+      "b": "Correct. Enveloped viruses acquire a lipid bilayer envelope from the host cell membrane during the budding process.",
+      "c": "Helical refers to the geometric symmetry of the capsid, not the presence of a lipid envelope.",
+      "d": "Icosahedral refers to the 20-sided geometric capsid structure, not the outer envelope."
+    }
+  }
+]
