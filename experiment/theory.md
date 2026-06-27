@@ -1,1 +1,5 @@
-### Link your theory in here
+### Theory
+
+Isolation of a virus from a biological sample is defined as the process of obtaining viral isolates used to study viral pathogenesis, develop vaccines, and perform genomic surveillance [1]. Viruses are obligate intracellular parasites and can only replicate in living cells, tissues, or organisms. Common systems used for virus isolation are: Mammalian cell culture, embryonated chicken eggs, and laboratory animals. Among these mammalian cell culture systems are widely used due to their sensitivity, reproducibility, and ease of handling. After replication of the virus in a suitable cell line, cytopathic effects (CPE) such as cell detachment, syncytia formation, cell rounding, and cell lysis can be observed.
+
+The isolated virus can be confirmed by: Hemadsorption or hemagglutination tests, Molecular techniques (RT-PCR/PCR), and sequencing of the viral genome.
